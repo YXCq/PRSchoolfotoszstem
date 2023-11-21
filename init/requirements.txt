@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+fastapi_sessions
+configparser
+sqlalchemy
+psycopg2
+python-multipart
+PyJWT
