@@ -3,7 +3,6 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine
 from fastapi import FastAPI
 import configparser
-from fastapi.security import HTTPBearer
 
 app = FastAPI()
 

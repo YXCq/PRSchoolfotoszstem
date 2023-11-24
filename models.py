@@ -1,6 +1,6 @@
 from init.settings import Base
 from sqlalchemy.types import LargeBinary
-from sqlalchemy import Column, Integer, String
+from sqlalchemy import Column, String, Integer
 from pydantic import BaseModel
 
 

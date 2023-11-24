@@ -1,7 +1,8 @@
 from fastapi import Form, File, UploadFile, Depends, FastAPI
-from models import Login
-from buisness_logic import pasting, login, photo_upl, main_page
+from models import Login, User
+from buisness_logic import pasting, login, photo_upl, main_page, user_page
 from jwt_op import verify_token
+from init.settings import session
 
 app = FastAPI()
 
@@ -20,10 +21,16 @@ async def register(log: str = Form(...), email: str = Form(...),
 @app.post("/user/update")
 async def update(decoded_token: dict = Depends(verify_token),
                  p1: UploadFile = File(None),
-                 p2: UploadFile = File(None)):
-    return photo_upl((p1, p2, {"cookie": decoded_token}))
+                 p2: UploadFile = File(None),
+                 password: str = Form(None)):
+    return photo_upl((p1, p2, {"cookie": decoded_token}, password))
 
 
 @app.post("/user")
 async def main(num: int):
     return main_page(num)
+
+
+@app.get("/user/{user_id}")
+async def user_by_id(user_id: int):
+    return user_page(user_id)
