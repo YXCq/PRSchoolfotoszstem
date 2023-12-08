@@ -7,8 +7,8 @@ from pydantic import BaseModel
 class User(Base):
     __tablename__ = "users"
     id = Column(Integer, primary_key=True)
-    photo1 = Column(LargeBinary)
-    photo2 = Column(LargeBinary)
+    photo1 = Column(LargeBinary, nullable=True)
+    photo2 = Column(LargeBinary, nullable=True)
     login = Column(String)
     email = Column(String)
     password = Column(String)
