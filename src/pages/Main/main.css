@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 4px;
+}
+
+.pagination a:hover {
+    background-color: #ccc;
+}
+
+.pagination .active a {
+    background-color: #333;
+    color: #fff;
+}
+
+.Header {
+    position: relative;
+    width: 1920px;
+    height: 218px;
+    top: -371px;
+    background-color: rgba(147, 95, 95, 0.10);
+    backdrop-filter: blur(71.26667022705078px);
+}
+
+.Header h1 {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.Header img {
+    position: relative;
+    display: flex;
+    left: 460px;
+    top: 20px;
+}
+
+.classInfo {
+    position: absolute;
+    width: 497px;
+    height: 213px;
+    border-radius: 25px 10px 10px 10px;
+    background: #FFF;
+    left: 450px;
+    top: 250px;
+}
+
+.ownInfo {
+    position: absolute;
+    width: 367px;
+    height: 481px;
+    border-radius: 10px 25px 10px 10px;
+    background: #FFF;
+    top: 250px;
+    left: 1030px;
+}
+
+.ownInfo img {
+   width: 180px;
+    height: 300px;
+}
+
+.ownInfo input:focus {
+    outline: none;
+}
+
+.ownInfo input {
+    border: none;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    position: relative;
+    left: -30px;
+    margin: 50px;
+    top: -30px;
+    color: #5A5A5A;
+    font-family: Inter;
+}

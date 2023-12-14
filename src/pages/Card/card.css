@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.Card{
+    background-image: url("../img/Background_card.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1900px;
+    height: 959px;
+}
+
+.Card img {
+    width: 500px;
+    position: relative;
+    left: 300px;
+    display: flex;
+    top: 90px;
+}
+
+
+.Card input{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #5A5A5A;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    left: 950px;
+    font-size: 40px;
+    color: #5A5A5A;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    top: -600px;
+    margin: 100px;
+    margin: 100px;
+}
+
+.Card input:focus {
+    outline: none;
+}

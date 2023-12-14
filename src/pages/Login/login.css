@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.goals {
+    background-color: #935F5F;
+    width: 518px;
+    height: 902px;
+    flex-shrink: 0;
+    border-radius: 40px 0px 0px 0px;
+    position: relative;
+    right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 28px;
+}
+
+.goals h1 {
+    color: #FFF;
+    width: 387px;
+    height: 47px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    left: -30px;
+}
+
+.goals p {
+    position: relative;
+    left: -30px;
+    color: #FFF;
+    width: 367px;
+    height: 140px;
+    flex-shrink: 0;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+.login_card {
+    position: absolute;
+    top: 57px;
+    left: 965px;
+    width: 603px;
+    height: 530px;
+    flex-shrink: 0;
+    border-radius: 20px 40px 20px 20px;
+    background: #FFF;
+}
+
+.login_card h1{
+    color: #5A5A5A;
+    display: flex;
+    flex-direction: column;
+    text-align: center  ;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form_card{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+}
+
+.form_card form {
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.form_card input:focus {
+    outline: none;
+}
+
+.form_card input {
+    top: -20px;
+    position: relative;
+    border: none;
+    margin: 30px;
+    left: -25px;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 3px;
+}
+
+.form_card button {
+    position: relative;
+    top: 50px;
+    border-radius: 8px;
+    background: #935F5F;
+    width: 405px;
+    height: 49px;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.find_classmates {
+    position: absolute;
+    left: 965px;
+    top: 650px;
+    width: 603px;
+    height: 218px;
+    border-radius: 20px 20px 40px 20px;
+    background: #FFF;
+}
+
+.find_classmates h1 {
+    color: #5A5A5A;
+    text-align: right;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+}
