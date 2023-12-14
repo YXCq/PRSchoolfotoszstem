@@ -1,5 +1,5 @@
 from fastapi import Form, File, UploadFile, Depends, FastAPI
-from Logic.models import Login
+from App.models import Login
 from App.buisness_logic import pasting, login, photo_upl, main_page, user_page, profile_connect
 from Logic.jwt_op import verify_token
 

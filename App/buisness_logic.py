@@ -1,7 +1,7 @@
 from init.settings import session, redis_conn
 from Logic.utils import photo_changes, error_parsing, hashing, send_email
 from Logic.jwt_op import jwt_en
-from Logic.models import User
+from App.models import User
 
 
 def pasting(credentials):
@@ -9,7 +9,7 @@ def pasting(credentials):
     login_, email, classroom = credentials[0], credentials[1], credentials[2]
 
     if session.query(User).filter(User.email == email).first():
-        return {"msg": "please write an email type"}
+        return {"msg": "This email is already used"}
 
     else:
         session.add(User(login=login_, email=email,
@@ -32,8 +32,7 @@ def login(credentials):
 
 
 def photo_upl(credentials):
-    # TODO: password hashing if needed, also as a great idea make gmail password updating
-
+    """photo profile uploading, also password updating"""
     p1, p2, info, password = credentials[0], credentials[1], credentials[2], hashing(credentials[3])
     user = session.query(User).filter(User.email == info["cookie"]["email"]).first()
     if password:
@@ -46,7 +45,6 @@ def photo_upl(credentials):
 
 def main_page(skip: int = 0, limit: int = 9):
     """Shows all users using pagination with frontend"""
-
     try:
         users = session.query(User).offset(skip).limit(limit).all()
 
@@ -66,6 +64,7 @@ def main_page(skip: int = 0, limit: int = 9):
 
 
 def user_page(id_):
+    """user page"""
     try:
         user = session.query(User).filter(User.id == id_).first()
 
@@ -83,6 +82,7 @@ def user_page(id_):
 
 
 def profile_connect(text, password):
+    """connecting profile """
     try:
         mail = redis_conn.get(text).decode('utf-8')
         user = session.query(User).filter(User.email == mail).first()

@@ -8,7 +8,9 @@ with open("../fastApiProject1/templates/img_1.png", "rb") as image_file:
     encoded_string = base64.b64encode(image_file.read()).decode('utf-8')
 
 
-def hashing(data): return hashlib.sha256(data.encode()).hexdigest()
+def hashing(data):
+    if data:
+        return hashlib.sha256(data.encode()).hexdigest()
 
 
 def photo_changes(user):
@@ -17,9 +19,8 @@ def photo_changes(user):
 
 
 def error_parsing(e):
-    print(f"An error occurred: {e}")
     session.rollback()
-    return "An error occurred. Please try again."
+    return f"An error occurred {e}. Please try again."
 
 
 def send_email(body: str, recipients):
