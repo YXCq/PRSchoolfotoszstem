@@ -29,5 +29,5 @@ def send_email(body: str, recipients):
     msg['From'] = GmailAdress
     msg['To'] = recipients
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
-        smtp_server.login("buskomaksym08@gmail.com", "uobz mlry ccds gomm")
-        smtp_server.sendmail("buskomaksym08@gmail.com", recipients, msg.as_string())  # Use the 'recipients' directly
+        smtp_server.login("dhcomsup@gmail.com", "wbfe kfzt ietr lmmi")
+        smtp_server.sendmail("dhcomsup@gmail.com", recipients, msg.as_string())  # Use the 'recipients' directly
