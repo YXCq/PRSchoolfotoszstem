@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79d581ba-9b02-464b-8163-8e98936e70c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/CardInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/LongBackground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/ParentCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fastApiProject1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/penis.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Card/components/Photo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Card/components/Photo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/ClassInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/ClassInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/OwnInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/OwnInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/img/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/img/Backgorund.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/img/Photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/Photo.png" afterDir="false" />
-    </list>
+    <list default="true" id="79d581ba-9b02-464b-8163-8e98936e70c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -211,7 +186,7 @@
       <workItem from="1702206045408" duration="3408000" />
       <workItem from="1702503852181" duration="998000" />
       <workItem from="1704315063952" duration="9983000" />
-      <workItem from="1704376075016" duration="590000" />
+      <workItem from="1704376075016" duration="1005000" />
     </task>
     <servers />
   </component>
