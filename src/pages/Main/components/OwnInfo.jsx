@@ -1,4 +1,4 @@
-import photo from "../../img/Photo.png"
+import photo from "./Photo.png"
 
 export const OwnInfo = () => {
     return (

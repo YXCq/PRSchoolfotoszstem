@@ -1,4 +1,4 @@
-import photo from "../../img/Photo.png"
+import photo from "../../Main/components/Photo.png"
 
 export function Photo() {
     return (

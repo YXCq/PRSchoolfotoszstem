@@ -5,11 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d581ba-9b02-464b-8163-8e98936e70c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/CardInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/Footer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/LongBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Main/components/ParentCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fastApiProject1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/penis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/buisness_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/buisness_logic.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logic/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Card/components/Photo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Card/components/Photo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/ClassInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/ClassInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/OwnInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/OwnInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/img/Background.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/img/Backgorund.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/img/Photo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/Photo.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,35 +50,50 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2YLnrmZneW7NmQfYvnysvKgx0kA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/busko/PycharmProjects/fastApiProject1/App/main.py",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;arrowFunctionComponent&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;frontend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/busko/PycharmProjects/fastApiProject1/App/main.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\busko\PycharmProjects\fastApiProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\App" />
-      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1" />
-      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\init" />
-      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\Logic" />
-      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\EndPoints" />
+      <recent name="D:\Programming\penis\src\pages\Main\components" />
+      <recent name="D:\Programming\penis\src\pages\img" />
+      <recent name="D:\Programming\penis\src" />
+      <recent name="D:\Programming\penis" />
+      <recent name="D:\Programming\penis\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,6 +210,8 @@
       <workItem from="1702062812900" duration="2994000" />
       <workItem from="1702206045408" duration="3408000" />
       <workItem from="1702503852181" duration="998000" />
+      <workItem from="1704315063952" duration="9983000" />
+      <workItem from="1704376075016" duration="590000" />
     </task>
     <servers />
   </component>
@@ -203,5 +240,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/Main/components/ParentCard.jsx</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Inter:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&family=Inter:wght@500&family=Telex&display=swap');
 
+
+.main {
+    width: 1920px;
+    height: 4462px;
+    background: url('components/LongBackground.png') ;
+}
 
 .pagination {
     display: flex;
@@ -35,7 +42,7 @@
     position: relative;
     width: 1920px;
     height: 218px;
-    top: -371px;
+    top: 0;
     background-color: rgba(147, 95, 95, 0.10);
     backdrop-filter: blur(71.26667022705078px);
 }
@@ -79,7 +86,9 @@
 }
 
 .ownInfo img {
-   width: 180px;
+    position: relative;
+    left: 8px;
+   width: 170px;
     height: 300px;
 }
 
@@ -101,3 +110,144 @@
     color: #5A5A5A;
     font-family: Inter;
 }
+
+.classInfo h1 {
+    color: #5A5A5A;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    font-family: Telex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.classInfo input {
+    border: none;
+    position: relative;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 3px;
+    color: #5A5A5A;
+    width: 220px;
+    top: 25px;
+    left: 20px;
+    font-family: Telex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    outline: none;
+}
+
+.edit {
+    position: absolute;
+    width: 497px;
+    height: 717px;
+    border-radius: 10px;
+    background: #FFF;
+    left: 450px;
+    top: 500px;
+}
+
+.edit input {
+    border: none;
+    position: relative;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 3px;
+    color: #5A5A5A;
+    width: 300px;
+    color: #5A5A5A;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-family: Telex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+}
+
+.editOwnInfo input{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    left: 10px
+}
+
+.editOwnInfo button {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    border: none;
+    width: 250px;
+    height: 49px;
+    border-radius: 8px;
+    background: #935F5F;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cardInfo {
+    width: 252px;
+    height: 350px;
+    border-radius: 6.866px;
+    background: #FFF;
+    position: relative;
+    top: 1150px;
+    left: 410px;
+    margin: 45px;
+}
+
+.cardInfo img {
+    width: 115px;
+    height: 190px;
+    position: relative;
+    top: 30px;
+    left: 8px;
+}
+
+.cardInfo input {
+    border: none;
+    border-bottom: 1px solid #5A5A5A;
+    padding-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    outline: none;
+    margin: 20px;
+    top: 0;
+    color: #5A5A5A;
+    font-family: Inter;
+}
+.parentCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block-final {
+    display: flex;
+    left: 150px;
+    top: 2600px;
+    position: absolute;
+}
+
+.footer {
+    width: 1922px;
+    height: 230px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.10);
+    backdrop-filter: blur(136.36666870117188px);
+    position: relative;
+    top: 1600px;
+}
+
