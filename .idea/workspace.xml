@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d581ba-9b02-464b-8163-8e98936e70c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Login/components/LoginCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Register/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRSchoolfotoszstem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/components/login_card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/CardInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/CardInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/fastApiProject1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/fastApiProject1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login/components/LoginCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/components/LoginCard.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +202,7 @@
       <workItem from="1705086276819" duration="3885000" />
       <workItem from="1705091409451" duration="32000" />
       <workItem from="1705164673137" duration="1899000" />
-      <workItem from="1705696461263" duration="5085000" />
+      <workItem from="1705696461263" duration="7224000" />
     </task>
     <servers />
   </component>
@@ -232,7 +220,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/backend" />
+                        <option value="origin/frontend" />
                       </list>
                     </value>
                   </entry>
