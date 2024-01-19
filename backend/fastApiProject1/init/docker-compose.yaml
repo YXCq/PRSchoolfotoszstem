@@ -1,0 +1,23 @@
+services:
+  database:
+    image: postgres
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      POSTGRES_USER: "docker"
+      POSTGRES_PASSWORD: "DataBasePassword5432"
+      POSTGRES_DB: "school_album"
+
+  adminer:
+    image: adminer
+    restart: always
+    depends_on:
+      - database
+    ports:
+      - "8080:8080"
+
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"

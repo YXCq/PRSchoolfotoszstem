@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+fastapi_sessions
+configparser
+sqlalchemy
+psycopg2
+python-multipart
+PyJWT
+redis
+pip==23.3.1

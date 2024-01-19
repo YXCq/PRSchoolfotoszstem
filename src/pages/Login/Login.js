@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import "./login.css"
 import Goals from "./components/goals";
-import LoginCard from "./components/login_card"
+import LoginCard from "./components/LoginCard";
 import Find_classmates from "./components/find_classmates";
 import axios from "axios";
 

@@ -6,7 +6,7 @@ import {CardInfo} from "./components/CardInfo";
 import {ParentCard} from "./components/ParentCard";
 import {Footer} from "./components/Footer";
 
-export function Main  (){
+const Main = () => {
     return (
         <div className="main">
         <Header />
@@ -18,3 +18,5 @@ export function Main  (){
         </div>
     )
 }
+
+export default Main;

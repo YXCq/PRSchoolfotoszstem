@@ -1,5 +1,7 @@
 import "../main.css"
 import Photo from './Photo.png'
+import {Button} from "@chakra-ui/react";
+
 export const Edit = () => {
     return (
         <div className="edit">

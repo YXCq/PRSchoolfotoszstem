@@ -2,7 +2,7 @@ import {Photo} from "./components/Photo";
 import "./card.css"
 import {CardInfo} from "./components/CardInfo";
 
-export function Card() {
+const Card = () => {
     return (
         <div className="Card">
             <Photo />
@@ -10,3 +10,5 @@ export function Card() {
         </div>
     )
 }
+
+export default Card;

@@ -1,6 +1,6 @@
 
 import Login from "./pages/Login/Login";
-import {Card} from "./pages/Card/Card";
+import Card from "./pages/Card/Card";
 
 function ForCard() {
     return (

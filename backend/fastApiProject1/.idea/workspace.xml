@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79d581ba-9b02-464b-8163-8e98936e70c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Login/components/LoginCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Register/Register.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRSchoolfotoszstem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ForCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Card/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Card/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login/components/login_card.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/CardInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/CardInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Main/components/Edit.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/buisness_logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/buisness_logic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logic/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Logic/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,61 +24,45 @@
         <option value="Dockerfile" />
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2YLnrmZneW7NmQfYvnysvKgx0kA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "frontend",
-    "last_opened_file_path": "D:/Programming/fotosystem",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.nodejs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;backend&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/busko/PycharmProjects/fastApiProject1/App/main.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="ReactDesignerToolWindowState">
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.rcb.reactComponents" value="false" />
-        <entry key="com.haulmont.rcb.reactInspector" value="false" />
-      </map>
-    </option>
-  </component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\busko\PycharmProjects\fastApiProject1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\fotosystem\backend\PRSchoolfotoszstem" />
-      <recent name="D:\Programming\penis\src\pages\Main\components" />
-      <recent name="D:\Programming\penis\src\pages\img" />
-      <recent name="D:\Programming\penis\src" />
-      <recent name="D:\Programming\penis" />
+      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\App" />
+      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1" />
+      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\init" />
+      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\Logic" />
+      <recent name="C:\Users\busko\PycharmProjects\fastApiProject1\EndPoints" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="FastAPI.Unnamed">
     <configuration name=".test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="fastApiProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,6 +142,16 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="FastAPI.Unnamed" />
+      <item itemvalue="Python..test" />
+      <item itemvalue="Python.models" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.models" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,19 +186,6 @@
       <workItem from="1702062812900" duration="2994000" />
       <workItem from="1702206045408" duration="3408000" />
       <workItem from="1702503852181" duration="998000" />
-      <workItem from="1704315063952" duration="9983000" />
-      <workItem from="1704376075016" duration="3027000" />
-      <workItem from="1704490856306" duration="36000" />
-      <workItem from="1704490953806" duration="716000" />
-      <workItem from="1704492189744" duration="2870000" />
-      <workItem from="1704548829579" duration="121000" />
-      <workItem from="1704549012271" duration="352000" />
-      <workItem from="1704649615942" duration="6665000" />
-      <workItem from="1704997585166" duration="4863000" />
-      <workItem from="1705086276819" duration="3885000" />
-      <workItem from="1705091409451" duration="32000" />
-      <workItem from="1705164673137" duration="1899000" />
-      <workItem from="1705696461263" duration="5085000" />
     </task>
     <servers />
   </component>
@@ -244,15 +215,10 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/Main/components/ParentCard.jsx</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fastApiProject1$fastApiProject1.coverage" NAME="fastApiProject1 Coverage Results" MODIFIED="1700863566148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fastApiProject1$models.coverage" NAME="models Coverage Results" MODIFIED="1700853778584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fastApiProject1$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1702504464695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/fastApiProject1$test.coverage" NAME="test Coverage Results" MODIFIED="1700945528936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
