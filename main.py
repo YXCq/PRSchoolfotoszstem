@@ -1,9 +1,25 @@
-from fastapi import Form, File, UploadFile, Depends, FastAPI
-from App.models import Login
 from App.buisness_logic import pasting, login, photo_upl, main_page, user_page, profile_connect
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi import Form, File, UploadFile, Depends, FastAPI
 from Logic.jwt_op import verify_token
+from App.models import Login
 
 app = FastAPI()
+
+
+origins = [
+    "http://localhost:3000",
+    "localhost:3000"
+]
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
 
 
 @app.post("/user/login")

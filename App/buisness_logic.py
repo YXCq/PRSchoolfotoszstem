@@ -23,8 +23,8 @@ def pasting(credentials):
 
 def login(credentials):
     """User login that is using jwt-token convertation and sending cookie data"""
-
-    x = session.query(User.email).filter(User.email == credentials[0], User.password == hashing(credentials[1])).first()
+    mail, password = credentials[0], credentials[1]
+    x = session.query(User.email).filter(User.email == mail, User.password == hashing(password)).first()
     if x:
         return {"msg": "logged in",
                 "cookie": jwt_en({"email": x[0]})}
