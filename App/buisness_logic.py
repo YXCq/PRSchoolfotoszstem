@@ -1,33 +1,39 @@
 from init.settings import session, redis_conn
-from Logic.utils import photo_changes, error_parsing, hashing, send_email
+from Logic.utils import photo_changes, error_parsing, hashing, send_email, creating_cookies
 from Logic.jwt_op import jwt_en
 from App.models import User
 
 
 def pasting(credentials):
-    """User registration function"""
-    login_, email, classroom = credentials[0], credentials[1], credentials[2]
+    """User registration function,
+     uses random hash values to guarantee secure login"""
+    login_, email, classroom, token, status = credentials[0], \
+        credentials[1], credentials[2], credentials[3], credentials[4]
+    user = session.query(User).filter(User.email == email).first()
 
-    if session.query(User).filter(User.email == email).first():
+    if user:
         return {"msg": "This email is already used"}
+
+    elif token["user_status"] == 0 or token["user_status"] == 1:
+        return {"msg": "You don`t have access to do that"}
 
     else:
         session.add(User(login=login_, email=email,
-                         classroom=classroom))
+                         classroom=classroom, status=status))
         rand = hashing(login_)
         redis_conn.set(rand, email)
         send_email(rand, email)
         session.commit()
-        return {"msg": "You succesfully registered"}
+        return {"msg": "You successfully registered"}
 
 
 def login(credentials):
     """User login that is using jwt-token convertation and sending cookie data"""
     mail, password = credentials[0], credentials[1]
-    x = session.query(User.email).filter(User.email == mail, User.password == hashing(password)).first()
+    x = session.query(User).filter(User.email == mail, User.password == hashing(password)).first()
     if x:
         return {"msg": "logged in",
-                "cookie": jwt_en({"email": x[0]})}
+                "cookie": jwt_en(creating_cookies(x.email, x.status, x.classroom))}
     return {"msg": "something went wrong"}
 
 
@@ -43,14 +49,12 @@ def photo_upl(credentials):
     return {"msg": "profile updating went succesfully"}
 
 
-def main_page(skip: int = 0, limit: int = 9):
+def main_page(skip: int = 0, limit: int = 9, user: dict = False):
     """Shows all users using pagination with frontend"""
     try:
-        users = session.query(User).offset(skip).limit(limit).all()
-
+        users = session.query(User).filter(User.classroom == user["classroom"]).offset(skip).limit(limit).all()
         for user in users:
             photo_changes(user)
-
         return users
 
     except Exception as e:

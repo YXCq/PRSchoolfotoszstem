@@ -1,6 +1,6 @@
 from init.settings import Base
 from sqlalchemy.types import LargeBinary
-from sqlalchemy import Column, String, Integer
+from sqlalchemy import Column, String, Integer, SmallInteger
 from pydantic import BaseModel
 
 
@@ -13,6 +13,7 @@ class User(Base):
     email = Column(String)
     password = Column(String)
     classroom = Column(String)
+    status = Column(SmallInteger)
 
 
 class Login(BaseModel):

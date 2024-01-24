@@ -31,3 +31,9 @@ def send_email(body: str, recipients):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
         smtp_server.login("dhcomsup@gmail.com", "wbfe kfzt ietr lmmi")
         smtp_server.sendmail("dhcomsup@gmail.com", recipients, msg.as_string())  # Use the 'recipients' directly
+
+
+def creating_cookies(user, status, classroom):
+    return {"email": user,
+            "user_status": status,
+            "classroom": classroom}

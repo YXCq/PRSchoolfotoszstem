@@ -29,8 +29,9 @@ async def logn(log: Login):
 
 @app.post("/user/register")
 async def register(log: str = Form(...), email: str = Form(...),
-                   classroom: str = Form(...)):
-    return pasting((log, email, classroom))
+                   classroom: str = Form(...), decoded_token: dict = Depends(verify_token),
+                   status: int = Form(...)):
+    return pasting((log, email, classroom, decoded_token, status))
 
 
 @app.post("/user/update")
@@ -42,8 +43,8 @@ async def update(decoded_token: dict = Depends(verify_token),
 
 
 @app.post("/user")
-async def main(num: int):
-    return main_page(skip=num)
+async def main(num: int, decoded_token: dict = Depends(verify_token)):
+    return main_page(skip=num, user=decoded_token)
 
 
 @app.get("/user/{user_id}")
