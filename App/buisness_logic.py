@@ -1,7 +1,7 @@
 from init.settings import session, redis_conn
 from Logic.utils import photo_changes, error_parsing, hashing, send_email, creating_cookies
 from Logic.jwt_op import jwt_en
-from App.models import User
+from App.models import User, Class
 
 
 def pasting(credentials):
@@ -14,7 +14,7 @@ def pasting(credentials):
     if user:
         return {"msg": "This email is already used"}
 
-    elif token["user_status"] == 0 or token["user_status"] == 1:
+    elif token["user_status"] == 0:
         return {"msg": "You don`t have access to do that"}
 
     else:
@@ -49,10 +49,12 @@ def photo_upl(credentials):
     return {"msg": "profile updating went succesfully"}
 
 
-def main_page(skip: int = 0, limit: int = 9, user: dict = False):
+def main_page(skip: int = 0, limit: int = 9, user: dict = False, id_: int = ...):
     """Shows all users using pagination with frontend"""
     try:
         users = session.query(User).filter(User.classroom == user["classroom"]).offset(skip).limit(limit).all()
+        if users.classroom != id_ and user["user_status"] == 0 or user["user_status"] == 1:
+            return {"msg": "that`s not your class!"}
         for user in users:
             photo_changes(user)
         return users
@@ -65,6 +67,37 @@ def main_page(skip: int = 0, limit: int = 9, user: dict = False):
 
     finally:
         session.close()
+
+
+def class_create(name, token, teacher_id):
+    teacher = session.query(User).filter(User.email == teacher_id).first()
+    if token["user_status"] == 0 or token["user_status"] == 1:
+        return {"msg": "You don`t have access to do that"}
+
+    elif teacher is None:
+        return {"msg": "this user does not exist"}
+
+    else:
+        session.add(Class(name=name, teacher=teacher_id))
+        session.commit()
+        id_ = session.query(Class.id).order_by(Class.id.desc()).first()
+        teacher.classroom = id_[0]
+        session.commit()
+        return {"msg": "You successfully registered class"}
+
+
+def all_classes(token):
+    if token["user_status"] == 0 or token["user_status"] == 1:
+        return {"msg": "you dont have access to that action"}
+    else:
+        return session.query(Class).all()
+
+
+def all_teachers(token):
+    if token["user_status"] == 0 or token["user_status"] == 1:
+        return {"msg": "you dont have access to that action"}
+    else:
+        return session.query(User).filter(User.status == 1).all()
 
 
 def user_page(id_):

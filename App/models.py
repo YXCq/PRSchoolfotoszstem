@@ -16,6 +16,13 @@ class User(Base):
     status = Column(SmallInteger)
 
 
+class Class(Base):
+    __tablename__ = "classes"
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    teacher = Column(String)
+
+
 class Login(BaseModel):
     login: str
     password: str
